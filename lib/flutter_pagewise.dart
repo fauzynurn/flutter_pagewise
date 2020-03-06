@@ -329,7 +329,7 @@ class PagewiseState<T> extends State<Pagewise<T>> {
     return Padding(
         padding: const EdgeInsets.symmetric(vertical: 8.0),
         child: Align(
-          alignment: Alignment.topCenter,
+          alignment: Alignment.center,
           child: child,
         ));
   }
